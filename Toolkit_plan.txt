@@ -1,0 +1,56 @@
+TOOLKIT PLAN
+
+1. Number Guessing Game
+The program chooses a secret number and lets the player guess until they get it right.
+Concepts: loop (repeat guesses), conditional (check too high, too low, or correct), random number, integer input, f-string (show the guess count).
+
+2. To-Do List
+The program lets the user add tasks, view all tasks, and mark tasks as complete.
+Concepts: list (store tasks), loop (keep showing the menu), conditional (choose an action), f-string (display task numbers and statuses).
+
+3. Simple Calculator
+The program asks for two numbers and an operation, then displays the result.
+Concepts: input, type conversion (float), conditional (choose addition, subtraction, multiplication, or division), arithmetic operators, f-string (format the result).
+
+4. Countdown Timer
+The program counts down from a number of seconds entered by the user and then displays a message.
+Concepts: loop (count down), conditional (check for valid input), integer conversion, time delay, f-string (display the remaining seconds).
+
+EXACT MENU TEXT
+
+=================================
+        MY TOOLKIT
+=================================
+1. Number Guessing Game
+2. To-Do List
+3. Simple Calculator
+4. Countdown Timer
+5. Exit
+Choose an option (1-5):
+
+TOOL MENUS
+
+Number Guessing Game:
+Enter your guess:
+(After each guess, the program shows one of these messages:)
+Too low! Try again.
+Too high! Try again.
+Correct! You guessed the number!
+
+To-Do List:
+1. Add a task
+2. View tasks
+3. Mark a task as complete
+4. Return to main menu
+Choose an option (1-4):
+
+Simple Calculator:
+Enter the first number:
+Enter an operation (+, -, *, /):
+Enter the second number:
+Result: [calculated answer]
+
+Countdown Timer:
+Enter the number of seconds:
+[The program displays the remaining seconds as it counts down.]
+Time's up!
